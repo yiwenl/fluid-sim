@@ -1,33 +1,33 @@
-# debug-camera
+# Fluid Simulation
 
 Tool class for Fluid Simulation using alfrid
 
 ![Demo](demo.jpg)
 
-### Install
+## Install
 
 Add this line to your package.json
 `"fluid-sim": "github:yiwenl/fluid-sim"`
 
-### Usage
+## Usage
 
 `this._fluid = new FluidSimulation(settings);`
 
-### API
+## API
 
-# Update Fluid Simulation
+### Update Fluid Simulation
 
 `update()`
 
-# Update with a flow
+### Update with a flow
 
 `updateFlow(mPos, mDir, mStrength = 1, mRadius = 1, mNoiseStrength = 0)`
 
-# Update with a flow texture
+### Update with a flow texture
 
 `updateFlowWithMap(mTextureVel, mTextureDensity, uStrength = 1)`
 
-### Example
+## Example
 
 ```
 import FluidSimulation from 'fluid-sim'
