@@ -13,6 +13,19 @@ Add this line to your package.json
 
 `this._fluid = new FluidSimulation(settings);`
 
+## Parameters
+
+```
+{
+  TEXTURE_SIZE: 128,
+  TEXTURE_DOWNSAMPLE: 2,
+  DENSITY_DISSIPATION: 0.994,
+  VELOCITY_DISSIPATION: 0.996,
+  PRESSURE_DISSIPATION: 0.996,
+  PRESSURE_ITERATIONS: 20,
+};
+```
+
 ## API
 
 ### Update Fluid Simulation
